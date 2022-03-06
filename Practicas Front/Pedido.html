@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Realiza Tu Orden</h1>
+
+    <h2>Selecciona uno o más sabores para tu Pastel</h2>
+
+    <form action="pedido.js">
+        <input type="checkbox" id="Sabor1" name="Sabor1" value="Zanahoria">
+        <label for="Sabor1">Zanahoria</label><br>
+        <input type="checkbox" id="Sabor2" name="Sabor2" value="Queso">
+        <label for="Sabor2">Queso</label><br>
+        <input type="checkbox" id="Sabor3" name="Sabor3" value="Arandanos">
+        <label for="Sabor3">Arandanos</label><br>
+        <input type="checkbox" id="Sabor4" name="Sabor4" value="Fresa">
+        <label for="Sabor4">Fresa</label>
+        <br>
+
+        <h2>Selecciona uno o más sabores para tu Pastel</h2>
+
+        <input type="checkbox" id="Adorno1" name="Adorno1" value="Chispas">
+        <label for="Adorno1">Chispas de Chocolate</label><br>
+        <input type="checkbox" id="Adorno2" name="Adorno2" value="Crema">
+        <label for="Adorno2">Crema Pastelera</label><br>
+        <input type="checkbox" id="Adorno3" name="Adorno3" value="Frutas">
+        <label for="Adorno3">Frutas</label><br>
+        <input type="checkbox" id="Adorno4" name="Adorno4" value="Mermelada">
+        <label for="Adorno4">Mermelada</label><br>
+
+        <p>Complete los siguientes Datos para Finalizar su Pedido</p>
+
+        <input type="text" id="Nombre" name="Nombre"><br>
+        <label for="Nombre">Ingresa Tu Nombre</label><br><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br>
+        <label for="tel1">Ingresa tu número Teléfonico</label><br><br>
+        <input type="email" name="email1" id="email1"><br>
+        <label for="email1">Ingresa tu correo electrónico</label><br><br>
+
+
+        <input type="button" value="Confirmar"><input type="reset" value="Borrar">
+        
+    </form>
+</body>
+</html>
