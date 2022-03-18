@@ -1,0 +1,428 @@
+
+ul.horizontal{
+    margin: 1px;;
+    padding: 20px;
+    margin-right: 12cm;
+    text-align: right;
+    }
+
+ul.horizontal li{
+    display: block;
+    padding:0 22px;
+    font-weight: bold;
+    font-size: large;
+    float: right;
+    margin-right: 2cm;
+    }
+
+.horizontal{
+    display: inline;
+}    
+    
+ul.horizontal li a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.fondo{
+    height: 700px;
+    background-image: url("../CSS/assets/doc2.jpg");
+    background-position: right;
+    background-repeat:no-repeat;
+    background-size: 13.5cm;
+}
+
+.tit{
+    margin-left: 4cm;
+    margin-top: 4cm;
+    color: rgb(50, 104, 204);
+    display: inline;
+}
+
+.cont{
+    text-align: top;
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(23, 43, 78);
+}
+
+.subcont{
+    text-align: top;
+    margin-top: 1cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+}
+
+.recomend p{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    color: rgb(75, 73, 73);
+}
+
+.vac{
+    text-align: top;
+    margin-top: 1cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(23, 43, 78);
+}
+
+.cuadro{
+    text-align: top;
+    margin-top: 1cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif; 
+    font-weight: 400;
+    height: 4cm;
+    width: 19cm; 
+    background:#f1eeee 
+    
+}
+
+
+.cont-cuadro p{
+    display: inline-block;
+    margin-left: 1.5cm;
+    text-align: left;
+    font-weight: bold;
+    color: rgba(75, 73, 73);
+}
+
+.cont-cuadro2 p{
+    display: inline-block;
+    margin-left: 1cm;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.enviar{
+    float: right;
+    margin-right: 2cm;
+    margin-top: 1cm;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 233);
+}
+
+.vacunas{
+    height: 150px;
+    width: 1000px;
+    background-image: url("../CSS/assets/vacunas.png");
+    background-repeat:no-repeat;
+    background-size: 1000px;
+    background-position: top;
+    margin-left: 4cm;
+    margin-top: 1cm;
+}
+
+.tit2{
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 35px;
+}
+.cont-tit2{
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.block{
+    height: 6.5cm;
+    width: 5cm;
+    background-color: #f1eeee;
+    margin-top: 1cm;
+    display: inline-block;
+    
+}
+
+.block2{
+    height: 6.5cm;
+    width: 5cm;
+    background-color: #f1eeee;
+    margin-top: 1cm;
+    margin-left: 20px;
+    display: inline-block;
+}
+.block3{
+    height: 6.5cm;
+    width: 5cm;
+    background-color: #f1eeee;
+    margin-top: 1cm;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.block4{
+    height: 6.5cm;
+    width: 5cm;
+    background-color: #f1eeee;
+    margin-left: 40px;
+    display: inline-block;
+
+}
+
+.blocks{
+    margin-left: 4cm;
+    
+
+}
+
+.con-block{
+    display: inline-block;
+    margin-left: 0.5cm;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.con-block2{
+    display: inline-block;
+    margin-left: 0.5cm;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.con-block3{
+    display: inline-block;
+    margin-left: 0.5cm;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.con-block4{
+    display: inline-block;
+    margin-left: 0.5cm;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+
+.Persona1{
+    height: 700px;
+    background-image: url("../CSS/assets/Persona1.png");
+    background-position: left;
+    background-repeat:no-repeat;
+    background-size: 30%;
+    margin-left: 1cm;
+    
+}
+
+.cont2{
+    text-align: right;
+    margin-top: 5cm;
+    margin-right: 9cm;
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.subcont2{
+    text-align: left;
+    margin-left: 16cm;
+    font-size: 20px;
+}
+
+.desplegable{
+    margin-left: 16cm;
+    margin-top: 2cm;
+}
+
+#color{ 
+    width: 10cm;
+    height: 1cm;
+}
+
+
+.Persona2{
+    height: 700px;
+    background-image: url("../CSS/assets/Persona2.png");
+    background-position: right;
+    background-repeat:no-repeat;
+    background-size: 40%;
+}
+
+.contp2{
+    text-align: left;
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(50, 104, 204);
+}
+
+.cont2p2{
+    text-align: left;
+    margin-top: 2cm;
+    margin-left: 4cm;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.cuadro1{
+    height: 5cm;
+    width: 5cm;
+    background-color: rgb(220, 248, 248);
+    margin-top: 1cm;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+.cuadro2{
+    height: 5cm;
+    width: 5cm;
+    background-color: rgb(220, 248, 248);
+    margin-top: 1cm;
+    margin-left: 2cm;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cuadros-emergency{
+    margin-left: 4cm;
+}
+
+.cuadro3{
+    height: 5cm;
+    width: 5cm;
+    background-color: rgb(220, 248, 248);
+    margin-top: 1cm;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cuadro4{
+    height: 5cm;
+    width: 5cm;
+    background-color: rgb(220, 248, 248);
+    margin-top: 1cm;
+    margin-left: 2cm;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cuadro1 p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cuadro2 p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cuadro3 p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cuadro4 p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cuadro1 button{
+    margin-left: 1.5cm;
+    margin-top: 0.4cm;
+}
+
+.cuadro2 button{
+    margin-left: 1.5cm;
+    margin-top: 0.4cm;
+}
+
+.cuadro3 button{
+    margin-left: 1cm;
+    margin-top: 0.4cm;
+}
+
+.cuadro4 button{
+    margin-left: 1.4cm;
+    margin-top: 0.4cm;
+}
+
+.footer{
+    background-color: #cdd0ec;
+    background-repeat: repeat-x;
+    height: 8cm;
+}
+
+.titf {
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    margin-left: 2cm;
+}
+
+.titcont{
+    margin-left: 2cm;
+    font-weight: bold;
+}
+
+.links1{
+    display: inline-block;
+    margin-left: 12cm;
+    margin-top: 0.3cm;
+    font-weight: bold;
+}
+
+.links2{
+    display: inline-block;
+    margin-left: 2cm;
+    font-weight: bold;
+    
+}
+
+.links3{
+    display: inline-block;
+    margin-left: 2cm;
+    font-weight: bold;
+    
+}
+
+
+.links1 a {
+    text-decoration: none;
+}
+
+.links2 a {
+    text-decoration: none;
+    
+}
+
+.links3 a {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
