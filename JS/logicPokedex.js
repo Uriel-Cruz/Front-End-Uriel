@@ -35,12 +35,12 @@ const pokeImage = (url) => {
 
 const nom = (txt) => {
     const name = document.getElementById("nombre");
-    name.innerHTML = txt;
+    name.innerHTML = "Name: " + txt;
 }
 
 const tipo = (txt) => {
     const name = document.getElementById("tipo");
-    name.innerHTML = txt;
+    name.innerHTML = "Type: " + txt;
 }
 
 const estad = (txt) => {
@@ -82,9 +82,9 @@ const imprimirMov = (array)  => {
     const mov2 = document.getElementById("mov2");
     const mo3 = array[3].move.name;
     const mov3 = document.getElementById("mov3");
-    mov1.innerHTML = mo1;
-    mov2.innerHTML = mo2;
-    mov3.innerHTML = mo3;
+    mov1.innerHTML = "Movimiento: " + mo1;
+    mov2.innerHTML = "Movimiento: " + mo2;
+    mov3.innerHTML = "Movimiento: " + mo3;
 } 
 
 

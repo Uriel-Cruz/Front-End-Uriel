@@ -8,21 +8,31 @@
     <title>Pokedex</title>
 </head>
 <body>
-    <div class="back-head">
-        <img src="../JS/Assets/titulo.png" alt="pokemon-tit" class="head">
+    <div class="subtit">
+        <div class="back-head">
+            <img src="./Assets/Pikachu.png" alt="pika" class="pikachu">
+            <img src="../JS/Assets/titulo.png" alt="pokemon-tit" class="head">
+            <img src="./Assets/ash.png" alt="" class="ash">
+        </div>
         <p>Pokedex</p>
     </div>
 
     <div class="contenedores">
         <div class="contenedor1">
             <br>
-            <img src="./Assets/pokebola.png" alt="Pokemon" id="pokeImg" width="150px" class="img">
-            <input class="input" type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+            <div class="contenedorPoke">
+                <img src="" alt="" id="pokeImg" width="150px" class="img">
+            </div>
+            <div class="request">
+                <input class="input" type="text" placeholder="pokemon" id="pokeName" name="pokeName"><br>
             <button class="button" onclick="fetchPokemon()">Buscar</button>
+            </div>
         </div>
         <div class="contenedor2">
-            <p id="nombre"></p>
-            <p id="tipo"></p>
+            <div class="nomtip">
+                <p id="nombre"></p>
+                <p id="tipo" class="tip"></p>
+            </div>
             <p id="estadistica1"></p>
             <p id="estadistica2"></p>
             <p id="estadistica3"></p>
