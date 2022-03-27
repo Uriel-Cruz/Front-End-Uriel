@@ -14,34 +14,42 @@
             <img src="../JS/Assets/titulo.png" alt="pokemon-tit" class="head">
             <img src="./Assets/ash.png" alt="" class="ash">
         </div>
-        <p>Pokedex</p>
+        <p>Pokedex Launch X</p>
     </div>
 
     <div class="contenedores">
         <div class="contenedor1">
             <br>
             <div class="contenedorPoke">
-                <img src="" alt="" id="pokeImg" width="150px" class="img">
+                <img src="./Assets/pokebola.png" alt="" id="pokeImg" width="150px" class="img">
             </div>
             <div class="request">
-                <input class="input" type="text" placeholder="pokemon" id="pokeName" name="pokeName"><br>
-            <button class="button" onclick="fetchPokemon()">Buscar</button>
+                <input class="input" type="text" placeholder="Ingresa tu pokemon" id="pokeName" name="pokeName"><br>
+                <button class="button" onclick="fetchPokemon()">Buscar</button>
             </div>
         </div>
         <div class="contenedor2">
             <div class="nomtip">
-                <p id="nombre"></p>
+                <p id="nombre" class="nom"></p>
                 <p id="tipo" class="tip"></p>
             </div>
-            <p id="estadistica1"></p>
-            <p id="estadistica2"></p>
-            <p id="estadistica3"></p>
-            <p id="estadistica4"></p>
-            <p id="estadistica5"></p>
-            <p id="estadistica6"></p>
-            <p id="mov1"></p>
-            <p id="mov2"></p>
-            <p id="mov3"></p>
+            <div class="block-es">
+                <div class="block-es1">
+                    <p id="estadistica1"></p>
+                    <p id="estadistica2"></p>
+                    <p id="estadistica3"></p>
+                </div>
+                <div class="block-es2">
+                    <p id="estadistica4"></p>
+                    <p id="estadistica5"></p>
+                    <p id="estadistica6"></p>
+                </div>
+            </div>
+            <div class="block-movs">
+                <p id="mov1"></p>
+                <p id="mov2"></p>
+                <p id="mov3"></p>
+            </div>
         </div>
     </div>
     
